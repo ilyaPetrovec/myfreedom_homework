@@ -1,0 +1,66 @@
+// НЕ понял задание
+const number = prompt('Введите число','')
+function nameEndNumber (numbers) {
+    let name = ['Джамшут']
+    for (let i = 0; i < 1001; i++) {
+        name.length
+        console.log(i);
+      }
+    return
+}
+console.log(nameEndNumber())
+
+
+
+
+
+
+
+const historyPersonOne = {
+    name: 'Энрики',
+    age: 30,
+    city: 'Лондон',
+    wife: 'Сара',
+    daughter:{
+        name: 'Энн',
+        age: 4,
+        city: 'Лондон',
+        like: 'рисовать мелками и играть с соседским мальчиком в песочнице'
+    },
+    parents:{
+        name:'mother',
+        city:'Ливерпуль',
+        age:65,
+        husband:{
+            name:'Николай',
+            age:70,
+            profession:'начальник охраны',
+            like:'играет первой скрипкой в Ливерпульском оркестре',
+        },
+        like:'путешествовать по родной Англии',
+    },
+    like: 'пробежки по утрам и свежевыжатый сок'
+}
+const historyPersonTwo = {
+    name: 'Сара',
+    age: 26,
+    profession: 'Юрист',
+    city: 'Лондон',
+    husband: 'Энрики',
+    daughter:{
+        name: 'Энн',
+        age: 4,
+        city: 'Лондон',
+        like: 'рисовать мелками и играть с соседским мальчиком в песочнице'
+    },
+    parents:{
+        name:'Джим и Келли',
+        city:'Манчестер',
+        age:60,
+        like:'путешествовать по родной Англии',
+    },
+    like: 'смотреть сериалы, пишет статьи в местную газету.'
+}
+
+
+
